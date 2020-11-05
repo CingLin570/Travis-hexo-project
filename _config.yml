@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: CingLin的筆記本 #網站標題
+title: CingLin Blog #網站標題
 subtitle: '' #網站副標題
-description: '' #網站敘述
+description: '沒有痛苦，沒有收穫' #網站敘述
 keywords: 前端,後端,全端,網頁,技術,網頁開發,前端開發,後端開發,JavaScript,HTML,CSS,SCSS #關鍵字
 author: CingLin #網站作者
 language: zh-TW #網站語系

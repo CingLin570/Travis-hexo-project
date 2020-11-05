@@ -2,7 +2,8 @@
 layout: vue
 title: Vue Cli
 date: 2020-11-04 20:35:53
-tags:
+tags: Vue.js
+categories: Vue
 ---
 圖一
 ![](https://i.imgur.com/aNwSDtY.png)
