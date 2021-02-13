@@ -14,6 +14,24 @@ hexo server ＊指令說明： s →啟動伺服器
 hexo clean ＊指令說明：刪除已生成的靜態頁面及快取檔案
 hexo deploy ＊指令說明： d →部屬模式
 
+```
+hexo new [title]
+```
+＊指令說明：建立新文章
+
+```
+hexo s -g
+```
+＊指令說明： `s` →啟動伺服器 `-g` →生成靜態頁面
+```
+hexo d -g
+```
+＊指令說明： `d` →部屬模式 `-g` →生成靜態頁面
+```
+hexo clean
+```
+＊指令說明：刪除已生成的靜態頁面及快取檔案
+
 但是 Hexo 其實還有相當多的指令，舉凡還有 hexo list、hexo migrate 以及 hexo publish 等等，可是實際上常用的指令只有上面五個，因此這邊這五個指令會是非常的長使用。
 
 參考: [試著學 Hexo - NexT 主題篇 - 可以安裝的套件](https://ithelp.ithome.com.tw/articles/10248214) , [架設 Hexo+GitHub](https://hsiangfeng.github.io/hexo/20190411/932826160/)
