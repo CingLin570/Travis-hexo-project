@@ -351,11 +351,10 @@ android_chrome_color: "#222"
 custom_logo: #/uploads/custom-logo.jpg
 
 codeblock:
-  border_radius: 10
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: night 
+  highlight_theme: night eighties 
   # Add copy button on codeblock
   copy_button:
     enable: true
