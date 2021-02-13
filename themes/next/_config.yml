@@ -64,7 +64,7 @@ footer:
     color: "#999"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
-  copyright:
+  copyright: 若要轉載文章，麻煩請保留原作者名稱與原始連結。
 
   # Powered by Hexo & NexT
   powered: false
@@ -163,7 +163,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/avatar.gif
+  url: https://i.imgur.com/sTHh4ii.jpg
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.

@@ -5,9 +5,12 @@ date: 2020-11-04 20:35:53
 tags: Vue.js
 categories: Vue
 ---
+
+# Vue Cli
+
 圖一
 ![](https://i.imgur.com/aNwSDtY.png)
-<!--more-->
+<!-- more -->
 圖二
 ![](https://i.imgur.com/2M2CLCy.png)
 
@@ -19,6 +22,7 @@ categories: Vue
 簡單來說，Webpack就是把我們開發中使用的工具和套件全部整合在一起，並且使用npm的方式來運行。
 
 ![](https://i.imgur.com/Hwd3OXK.png)
+
 ## SPA
 
 簡單來說就是由前端模擬的路由，那麼(路由)我們可以想像成一個網址，目前我們看到的網頁都是由後端決定的路由，SPA呢就是由前端所決定的路由，會在/後面加上#字號，#字號後面的user，就是我們實際運行的網址，實際上呢也只會切換#字號後面的網址，頁面也會跟著做更換；通常後端決定的路由在網頁切換的時候會有一個閃爍的感覺，如果使用前端決定的路由，更能提升使用者體驗
@@ -26,9 +30,8 @@ categories: Vue
 
 ![](https://i.imgur.com/G7i5GJK.png)
 
-
-
 ## 安裝 Node.js
+
 目前有許多前端開發環境都是基於 Node.js，如 Gulp、Webpack、Parcel...，或是任何主流框架（Vue、React、Angular）的 CLI 也都是基於此服務。本次要介紹的 Vue Cli 自然也不例外。
 
 進入官網安裝 [Node.js](https://nodejs.org/en/)，請打開終端機或命令提示字元，輸入 `node -v` 後按 Enter，看是否有顯示版本號。
@@ -72,7 +75,6 @@ Win10 執行視窗快速鍵為 win + R:
 
 Babel:在撰寫js的時候很常使用ES6的語法，為了確保這些語法在所有的瀏覽器能夠正確運行。
 
-
 TypeScript: js的預處理器。
 
 Router:建議直接在Vue CLI的部分直接啟用，在之後使用上也比較方便，會直接給一個初始的loader環境，以後實作就不用手動開啟。
@@ -106,3 +108,23 @@ public:這個資料夾是公開的資料夾，這個資料夾的內容都不會�
 再來我們還會有更目錄下的檔案，就是我們運行的環境
 
 package.json:安裝套件所記錄的檔案
+
+## main.js
+
+![](https://i.imgur.com/5k2b0gV.png)
+
+主要是放在src的資料夾裡，main.js是我們的主要檔案，所有的檔案都會跟它產生關聯
+
+![](https://i.imgur.com/Wyybx6I.png)
+
+![](https://i.imgur.com/M42gXXc.png)
+
+會看到vue、App.vue和router與main.js產生關聯，而router裡有Home跟About的頁面產生關聯。
+![](https://i.imgur.com/h1nKHlZ.png)
+Home.vue跟About.vue都是一個完整的頁面
+![](https://i.imgur.com/zwu1aGG.png)
+再來說說component資料夾，這是在我們主頁面下的小元件，像是這些就能掛載到Home.vue和About.vue頁面上，再由路由載進來，最後掛載到main.js上。
+
+如果我們要撰寫js、css(sass)的話我們會寫在assets的資料夾內。
+
+最後透過編譯，會編譯成輸出的檔案例如:public資料夾裡的index.html，使用ui裡的build建立dist檔案，注意這裡dist檔案無法直接開啟，必須使用webServer開啟。
