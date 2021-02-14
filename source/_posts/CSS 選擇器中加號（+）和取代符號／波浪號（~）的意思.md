@@ -1,5 +1,5 @@
 ---
-title: CSS 選擇器中加號（+）和取代符號／波浪號（~）的意思
+title: CSS 選擇器中加號(+)和波浪號(~)
 date: 2021-2-14 11:05:53
 tags: css
 categories: css
@@ -67,3 +67,5 @@ div ~ p{
 總結來說，
 p+p：同一層中，p後面的第一個p；
 p~p：同一層中，p後面的所有p。
+
+參考: [CSS 選擇器中加號（+）和取代符號／波浪號（~）的意思](https://pjchender.blogspot.com/2015/07/css_25.html)
