@@ -1,6 +1,6 @@
 ---
 title: gulp安裝流程
-date: 2021-3-01 20:00:57
+date: 2021-2-28 18:03:35
 tags: gulp
 categories: gulp
 ---
@@ -67,5 +67,3 @@ A：指令請換成 `sudo npm i gulp@4 -g`
 
 
 ![](https://i.imgur.com/GJOw1fE.png)
-
-

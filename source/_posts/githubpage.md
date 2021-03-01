@@ -342,11 +342,3 @@ https://username.github.io/儲存庫名稱/檔名.html
 * [30 天精通 Git 版本控管 - 作者黃保翕 ( Will 保哥 )](https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/README.md)
 * [Git 官方中文教學](https://git-scm.com/book/zh-tw/v2)
 * [連猴子都能懂的 Git 入門指南](https://backlog.com/git-tutorial/tw/)
-
-## 感謝牆
->  謝謝 這篇文章，幫助我很多~ [name=洧杰]
->  感謝分享~大家要注意路徑的問題喔！我之前卡了很久XD[name=jason06286]
->  謝謝這篇教學文，對於突然換電腦的我，現在再回頭重新設定一次，幫助很大QQ [name=西零]
->  超級感謝這篇QQ，第一次這麼快又清楚的使用git
-
-###### tags: `Shared`
